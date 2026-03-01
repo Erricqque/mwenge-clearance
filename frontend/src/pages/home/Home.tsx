@@ -14,7 +14,6 @@ import {
   Chip,
   useTheme,
   alpha,
-  Divider
 } from '@mui/material';
 import {
   School as SchoolIcon,

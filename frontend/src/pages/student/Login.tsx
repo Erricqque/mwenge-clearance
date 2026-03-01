@@ -21,8 +21,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import PersonIcon from '@mui/icons-material/Person';
 import LockIcon from '@mui/icons-material/Lock';
 import LoginIcon from '@mui/icons-material/Login';
-import { authenticateStudent, verifyPassword, students } from '../../services/studentService';
-
+import { students } from '../../services/studentService';
 const Login: React.FC = () => {
   const theme = useTheme();
   const navigate = useNavigate();
